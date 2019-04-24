@@ -23,7 +23,7 @@ Once correctly registered your name should appear at our leader board (at host-n
 
 Once registered, use acquired token request and check decrypted passwords. **Beware!** Decryper sometimes fails so be sure that you are able to overcome that.
 
-Your client should decrypt passwords in endless loop defined in main corutine body. Once you send properly processed password your score on leaderboard should improve.
+Your client should continuously decrypt passwords. Once you send properly processed password your score on leaderboard should improve.
 
 #### 3. Work parallelization
 
