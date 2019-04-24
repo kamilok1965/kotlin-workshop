@@ -15,7 +15,7 @@ At the beginning you need to connect to leaderboard server and send Register mes
 
 You can use Api object that is already created inside main function in file `app.kt`
 
-Once correctly registered your name should appear at our leader board (at [kotlin-coroutines.herokuapp.come](kotlin-coroutines.herokuapp.com))
+Once correctly registered your name should appear at our leader board (at [kotlin-coroutines.herokuapp.com](kotlin-coroutines.herokuapp.com))
 
 ![](leaderboard.png)
 
@@ -27,7 +27,7 @@ Your client should continuously decrypt passwords. Once you send properly proces
 
 #### 3. Work parallelization
 
-Now we care more about speed of processing. To measure this we need to use different mode of leader board: [kotlin-coroutines.herokuapp.come](kotlin-coroutines.herokuapp.com)
+Now we care more about speed of processing. To measure this we need to use different mode of leader board: [kotlin-coroutines.herokuapp.com](kotlin-coroutines.herokuapp.com)
 
 If we can't speed up decrypting process we can do it parallel. We suggest you to create channels for incoming passwords and finished decryptions. You will also need something that will create worker coroutines. 
 
@@ -39,7 +39,7 @@ Beware: Decrypter has limitation: It can effectively process only 4 computation 
 
 This is time to focus also on correctness of your decryption (dealing with Decryptor problems to be more precise).
 
-It is time to finally use full leader board: [kotlin-coroutines.herokuapp.come](kotlin-coroutines.herokuapp.com)
+It is time to finally use full leader board: [kotlin-coroutines.herokuapp.com](kotlin-coroutines.herokuapp.com)
 
 I assume that your are able to recover from exceptions now but did you measure error rates?
 
